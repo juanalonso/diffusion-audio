@@ -3,6 +3,27 @@
 ¿Conoces alguno más? Mándamelo y lo incluyo en la lista.
 
 
+
+#### 20230128
+## Noise2Music
+### Anonymous
+
+ We introduce Noise2Music, where a series of diffusion models is trained to generate high-quality 30-second music clips from text prompts. Two types of diffusion models, a generator model, which generates an intermediate representation conditioned on text, and a cascader model, which generates high-fidelity audio conditioned on the intermediate representation and possibly the text, are trained and utilized in succession to generate high-fidelity music.
+
+We explore two options for the intermediate representation, one using a spectrogram and the other using audio with lower fidelity. We find that the generated audio is not only able to faithfully reflect key elements of the text prompt such as genre, tempo, instruments, mood and era, but goes beyond to ground fine-grained semantics of the prompt. Pretrained large language models play a key role in this story---they are used to generate paired text for the audio of the training set and to extract embeddings of the text prompts ingested by the diffusion models. 
+
+| | |
+|-|-|
+| Paper | No |
+| Ejemplos | https://noise2music.github.io/ |
+| Demo | No |
+| Código oficial | No |
+| Código de terceros | No |
+| Destacado | ? |
+| Output | ?kHz |
+
+---
+
 #### 2023-01-27
 ## MusicLM: Generating Music From Text
 ### Google
@@ -38,3 +59,22 @@ We introduce AudioLM, a framework for high-quality audio generation with long-te
 | Código de terceros | https://github.com/lucidrains/audiolm-pytorch |
 | Destacado | Preserve speaker identity, prosody, accent and recording conditions of the prompt,  |
 | Output | ?kHz |
+
+
+
+
+
+
+#### 20220722
+## Dance Diffusion
+### Harmonai
+
+| | |
+|-|-|
+| Paper | No |
+| Ejemplos | No |
+| Demo | https://colab.research.google.com/github/harmonai-org/sample-generator/blob/main/Dance_Diffusion.ipynb |
+| Código oficial | https://github.com/harmonai-org/sample-generator |
+| Código de terceros | No |
+| Destacado | Incluye código de entrenamiento y finetuning |
+| Output | 16-44kHz |
