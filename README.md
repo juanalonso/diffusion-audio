@@ -1,5 +1,5 @@
 # diffusion-audio
-### Lista de recursos de audio basados en diffusion.
+### Lista de recursos de audio basados en diffusion (y algún otro que me parece interesante)
 ¿Conoces alguno más? Mándamelo y lo incluyo en la lista.
 
 
@@ -13,8 +13,28 @@
 | | |
 |-|-|
 | Paper |http://arxiv.org/abs/2301.11325|
-| Ejemplos |https://google-research.github.io/seanet/musiclm/examples/ |
+| Ejemplos | https://google-research.github.io/seanet/musiclm/examples/ |
 | Demo |No|
-| Código |No|
-| Destacado | Audio Generation From Text (captions, gennres, musician experience, places, periods in time), Long Generation, Story Mode, Text and Melody Conditioning, Painting Caption Conditioning|
+| Código oficial | No |
+| Código de terceros | https://github.com/lucidrains/musiclm-pytorch (placeholder) |
+| Destacado | Audio Generation From Text (captions, genres, musician experience, places, periods in time), Long Generation, Story Mode, Text and Melody Conditioning, Painting Caption Conditioning|
 | Output |24kHz|
+
+---
+
+#### 20220907
+## AudioLM: a Language Modeling Approach to Audio Generation
+### Google
+
+We introduce AudioLM, a framework for high-quality audio generation with long-term consistency. AudioLM maps the input audio to a sequence of discrete tokens and casts audio generation as a language modeling task in this representation space. We show how existing audio tokenizers provide different trade-offs between reconstruction quality and long-term structure, and we propose a hybrid tokenization scheme to achieve both objectives. Namely, we leverage the discretized activations of a masked language model pre-trained on audio to capture long-term structure and the discrete codes produced by a neural audio codec to achieve high-quality synthesis. By training on large corpora of raw audio waveforms, AudioLM learns to generate natural and coherent continuations given short prompts. When trained on speech, and without any transcript or annotation, AudioLM generates syntactically and semantically plausible speech continuations while also maintaining speaker identity and prosody for unseen speakers. Furthermore, we demonstrate how our approach extends beyond speech by generating coherent piano music continuations, despite being trained without any symbolic representation of music. 
+
+| | |
+|-|-|
+| Paper | https://arxiv.org/abs/2209.03143 |
+| Info. adicional | https://ai.googleblog.com/2022/10/audiolm-language-modeling-approach-to.html |
+| Ejemplos | https://google-research.github.io/seanet/audiolm/examples/ |
+| Demo | No |
+| Código oficial | No |
+| Código de terceros | https://github.com/lucidrains/audiolm-pytorch |
+| Destacado | Preserve speaker identity, prosody, accent and recording conditions of the prompt,  |
+| Output | ?kHz |
