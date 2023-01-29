@@ -1,9 +1,31 @@
-# diffusion-audio
-### Lista de recursos de audio basados en diffusion (y algún otro que me parece interesante)
-¿Conoces alguno más? Mándamelo y lo incluyo en la lista.
+# Modelos de audio, aplicaciones y utilidades basadas en diffusion
+### (y algún otra que me parezca interesante)
 
-#### 20230129
-## Make-An-Audio: Text-To-Audio Generation with Prompt-Enhanced Diffusion Models
+<br> <br> <br>
+
+
+#### 2023-xx-xx
+## AudioLDM
+### xxx
+
+| | |
+|-|-|
+| Paper | No |
+| Ejemplos | https://twitter.com/LiuHaohe/status/1619119637660327936 |
+| Demo | No |
+| Código oficial | No |
+| Código de terceros | No |
+| Destacado | ? |
+| Output | ?kHz |
+
+<br>
+
+---
+<br> <br>
+
+
+#### 2023-01-29
+## Make-An-Audio
 ### Zhejiang University
 
  Large-scale multimodal generative modeling has created milestones in text-to-image and text-to-video generation. Its application to audio still lags behind due to two main reasons: the lack of large-scale datasets with high-quality text-audio pairs, and the complexity of modeling long continuous audio data. In this work, we propose Make-An-Audio with a prompt-enhanced diffusion model that addresses these gaps by 1) introducing pseudo prompt enhancement with a distill-then-reprogram approach which alleviates the data scarcity by using weekly-supervised data with language-free audios; 2) leveraging spectrogram autoencoder to predict the self-supervised audio representation instead of waveforms. Together with robust contrastive language-audio pretraining (CLAP) representations, Make-An-Audio achieves state-of-the-art results in both objective and subjective evaluation. Moreover, we present its controllability with classifier-free guidance and generalization for X-to-Audio with "No Modality Left Behind", for the first time unlocking the ability to generate high-definition, high-fidelity audios given a user-defined modality input. 
@@ -18,9 +40,13 @@
 | Destacado | Text to audio, Image to audio, Video to audio |
 | Output | 16kHz |
 
----
+<br>
 
-#### 20230128
+---
+<br> <br>
+
+
+#### 2023-01-28
 ## Noise2Music
 ### Anonymous
 
@@ -38,14 +64,17 @@ We explore two options for the intermediate representation, one using a spectrog
 | Destacado | ? |
 | Output | ?kHz |
 
+<br>
+
 ---
+<br> <br>
+
 
 #### 2023-01-27
-## MusicLM: Generating Music From Text
+## MusicLM
 ### Google
 
-
- We introduce MusicLM, a model generating high-fidelity music from text descriptions such as "a calming violin melody backed by a distorted guitar riff". MusicLM casts the process of conditional music generation as a hierarchical sequence-to-sequence modeling task, and it generates music at 24 kHz that remains consistent over several minutes. Our experiments show that MusicLM outperforms previous systems both in audio quality and adherence to the text description. Moreover, we demonstrate that MusicLM can be conditioned on both text and a melody in that it can transform whistled and hummed melodies according to the style described in a text caption. To support future research, we publicly release MusicCaps, a dataset composed of 5.5k music-text pairs, with rich text descriptions provided by human experts. 
+We introduce MusicLM, a model generating high-fidelity music from text descriptions such as "a calming violin melody backed by a distorted guitar riff". MusicLM casts the process of conditional music generation as a hierarchical sequence-to-sequence modeling task, and it generates music at 24 kHz that remains consistent over several minutes. Our experiments show that MusicLM outperforms previous systems both in audio quality and adherence to the text description. Moreover, we demonstrate that MusicLM can be conditioned on both text and a melody in that it can transform whistled and hummed melodies according to the style described in a text caption. To support future research, we publicly release MusicCaps, a dataset composed of 5.5k music-text pairs, with rich text descriptions provided by human experts. 
 
 | | |
 |-|-|
@@ -57,10 +86,35 @@ We explore two options for the intermediate representation, one using a spectrog
 | Destacado | Text to audio (captions, genres, musician experience, places, periods in time), Long Generation, Story Mode, Text and Melody Conditioning, Painting Caption Conditioning|
 | Output |24kHz|
 
----
+<br>
 
-#### 20220907
-## AudioLM: a Language Modeling Approach to Audio Generation
+---
+<br> <br>
+
+
+#### 2022-11-25
+## Riffusion
+### Seth Forsgren y Hayk Martiros
+
+ Riffusion is a library for real-time music and audio generation with stable diffusion.
+
+| | |
+|-|-|
+| Paper | https://www.riffusion.com/about |
+| Ejemplos | No |
+| Demo | https://www.riffusion.com/ |
+| Código oficial | https://github.com/riffusion/riffusion |
+| Código de terceros | No |
+| Destacado |  |
+| Output | kHz |
+
+<br>
+
+---
+<br> <br>
+
+#### 2022-09-07
+## AudioLM
 ### Google
 
 We introduce AudioLM, a framework for high-quality audio generation with long-term consistency. AudioLM maps the input audio to a sequence of discrete tokens and casts audio generation as a language modeling task in this representation space. We show how existing audio tokenizers provide different trade-offs between reconstruction quality and long-term structure, and we propose a hybrid tokenization scheme to achieve both objectives. Namely, we leverage the discretized activations of a masked language model pre-trained on audio to capture long-term structure and the discrete codes produced by a neural audio codec to achieve high-quality synthesis. By training on large corpora of raw audio waveforms, AudioLM learns to generate natural and coherent continuations given short prompts. When trained on speech, and without any transcript or annotation, AudioLM generates syntactically and semantically plausible speech continuations while also maintaining speaker identity and prosody for unseen speakers. Furthermore, we demonstrate how our approach extends beyond speech by generating coherent piano music continuations, despite being trained without any symbolic representation of music. 
@@ -76,9 +130,13 @@ We introduce AudioLM, a framework for high-quality audio generation with long-te
 | Destacado | Preserve speaker identity, prosody, accent and recording conditions of the prompt,  |
 | Output | ?kHz |
 
----
+<br>
 
-#### 20220722
+---
+<br> <br>
+
+
+#### 2022-07-22
 ## Dance Diffusion
 ### Harmonai
 
