@@ -2,7 +2,23 @@
 ### Lista de recursos de audio basados en diffusion (y algún otro que me parece interesante)
 ¿Conoces alguno más? Mándamelo y lo incluyo en la lista.
 
+#### 20230129
+## Make-An-Audio: Text-To-Audio Generation with Prompt-Enhanced Diffusion Models
+### Zhejiang University
 
+ Large-scale multimodal generative modeling has created milestones in text-to-image and text-to-video generation. Its application to audio still lags behind due to two main reasons: the lack of large-scale datasets with high-quality text-audio pairs, and the complexity of modeling long continuous audio data. In this work, we propose Make-An-Audio with a prompt-enhanced diffusion model that addresses these gaps by 1) introducing pseudo prompt enhancement with a distill-then-reprogram approach which alleviates the data scarcity by using weekly-supervised data with language-free audios; 2) leveraging spectrogram autoencoder to predict the self-supervised audio representation instead of waveforms. Together with robust contrastive language-audio pretraining (CLAP) representations, Make-An-Audio achieves state-of-the-art results in both objective and subjective evaluation. Moreover, we present its controllability with classifier-free guidance and generalization for X-to-Audio with "No Modality Left Behind", for the first time unlocking the ability to generate high-definition, high-fidelity audios given a user-defined modality input. 
+
+| | |
+|-|-|
+| Paper | https://text-to-audio.github.io/paper.pdf |
+| Ejemplos | https://text-to-audio.github.io/ |
+| Demo | No |
+| Código oficial | No |
+| Código de terceros | No |
+| Destacado | Text to audio, Image to audio, Video to audio |
+| Output | 16kHz |
+
+---
 
 #### 20230128
 ## Noise2Music
@@ -38,7 +54,7 @@ We explore two options for the intermediate representation, one using a spectrog
 | Demo |No|
 | Código oficial | No |
 | Código de terceros | https://github.com/lucidrains/musiclm-pytorch (placeholder) |
-| Destacado | Audio Generation From Text (captions, genres, musician experience, places, periods in time), Long Generation, Story Mode, Text and Melody Conditioning, Painting Caption Conditioning|
+| Destacado | Text to audio (captions, genres, musician experience, places, periods in time), Long Generation, Story Mode, Text and Melody Conditioning, Painting Caption Conditioning|
 | Output |24kHz|
 
 ---
@@ -60,10 +76,7 @@ We introduce AudioLM, a framework for high-quality audio generation with long-te
 | Destacado | Preserve speaker identity, prosody, accent and recording conditions of the prompt,  |
 | Output | ?kHz |
 
-
-
-
-
+---
 
 #### 20220722
 ## Dance Diffusion
