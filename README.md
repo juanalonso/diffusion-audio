@@ -3,7 +3,7 @@
 
 <br>
 
-* [AudioLDM](#AudioLDM)
+
 * [AudioLM](#AudioLM)
 * [Dance Diffusion](#Dance-Diffusion)
 * [Make-An-Audio](#Make-An-Audio)
@@ -35,23 +35,7 @@
 ---
 <br> <br>
 
-#### 2023-xx-xx
-## AudioLDM
-### xxx
 
-| | |
-|-|-|
-| Paper | No |
-| Ejemplos | https://twitter.com/LiuHaohe/status/1619119637660327936 |
-| Demo | No |
-| Código oficial | No |
-| Código de terceros | No |
-| Output | ?kHz |
-
-<br>
-
----
-<br> <br>
 
 
 #### 2023-01-29
@@ -84,7 +68,7 @@ Make-An-Audio is a prompt-enhanced diffusion model for large-scale text-to-audio
 
 | | |
 |-|-|
-| Paper |  |
+| Paper | https://arxiv.org/abs/2301.06468 |
 | Ejemplos | https://kinyugo.github.io/msanii-demo/ |
 | Demo | https://huggingface.co/spaces/kinyugo/msanii |
 | Código oficial | https://github.com/Kinyugo/msanii |
