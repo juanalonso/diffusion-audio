@@ -3,9 +3,10 @@
 
 <br>
 
-
+* [AudioLDM](#AudioLDM)
 * [AudioLM](#AudioLM)
 * [Dance Diffusion](#Dance-Diffusion)
+* [DiffWave](#DiffWave)
 * [Make-An-Audio](#Make-An-Audio)
 * [Moûsai](#Moûsai)
 * [Msanii](#Msanii)
@@ -15,11 +16,35 @@
 * [Riffusion](#Riffusion)
 
 <br> <br> <br>
+
+#### 2023-01-31
+## AudioLDM
+###  Haohe Liu, Zehua Chen, Yi Yuan1, Xinhao Mei1, Xubo Liu, Danilo Mandic, Wenwu Wang, Mark D. Plumley 
+
+This study proposes AudioLDM, a text-to-audio system that is built on a latent space to learn continuous audio representations from language-audio pretraining latents and enables various text-guided audio manipulations. AudioLDM is advantageous in both generation quality and computational efficiency, and achieves state-of-the-art performance when trained on AudioCaps with a single GPU.
+
+| | |
+|-|-|
+| Paper | https://arxiv.org/abs/2301.12503 |
+| Ejemplos | https://audioldm.github.io/ |
+| Demo | No |
+| Código oficial | No |
+| Código de terceros | No |
+| Output | 16kHz |
+
+<br>
+
+---
+<br> <br>
+
+
+
+
 #### 2023-01-30
 ## Moûsai
 ### Flavio Schneider, Zhijing Jin, Bernhard Schölkopf
 
- This work investigates the potential of text-conditional music generation using a cascading latent diffusion approach which can generate high-quality music at 48kHz from textual descriptions, while maintaining reasonable inference speed on a single consumer GPU
+ This work investigates the potential of text-conditional music generation using a cascading latent diffusion approach which can generate high-quality music at 48kHz from textual descriptions, while maintaining reasonable inference speed on a single consumer GPU.
 
 | | |
 |-|-|
@@ -36,13 +61,11 @@
 <br> <br>
 
 
-
-
 #### 2023-01-29
 ## Make-An-Audio
 ### Zhejiang University
 
-Make-An-Audio is a prompt-enhanced diffusion model for large-scale text-to-audio generation. It alleviates data scarcity with pseudo prompt enhancement and leverages spectrogram autoencoder to predict the self-supervised audio representation, achieving state-of-the-art results in objective and subjective evaluations. We also present its controllability with classifier-free guidance and generalization for X-to-Audio with "No Modality Left Behind"
+Make-An-Audio is a prompt-enhanced diffusion model for large-scale text-to-audio generation. It alleviates data scarcity with pseudo prompt enhancement and leverages spectrogram autoencoder to predict the self-supervised audio representation, achieving state-of-the-art results in objective and subjective evaluations. We also present its controllability with classifier-free guidance and generalization for X-to-Audio with "No Modality Left Behind".
 
 | | |
 |-|-|
@@ -64,7 +87,7 @@ Make-An-Audio is a prompt-enhanced diffusion model for large-scale text-to-audio
 ## Msanii
 ### Kinyugo Maina
 
- Msanii, a novel diffusion-based model for synthesizing long-context, high-fidelity music efficiently. This is the first work to successfully employ diffusion models for synthesizing such long music samples at high sample rates
+ Msanii, a novel diffusion-based model for synthesizing long-context, high-fidelity music efficiently. This is the first work to successfully employ diffusion models for synthesizing such long music samples at high sample rates.
 
 | | |
 |-|-|
@@ -201,3 +224,24 @@ AudioLM is a framework for high-quality audio generation with long-term consiste
 | Código de terceros | No |
 | Destacado | Incluye código de entrenamiento y finetuning |
 | Output | 16-44kHz |
+
+<br>
+
+---
+<br> <br>
+
+#### 2020-09-21
+## DiffWave
+### Zhifeng Kong, Wei Ping, Jiaji Huang, Kexin Zhao, Bryan Catanzaro
+
+ This paper introduces DiffWave, a non-autoregressive, diffusion probabilistic model for waveform generation. It is more efficient than WaveNet vocoders and outperforms autoregressive and GAN-based models in terms of audio quality and sample diversity.
+
+| | |
+|-|-|
+| Paper | https://arxiv.org/abs/2009.09761 |
+| Ejemplos | https://diffwave-demo.github.io/ |
+| Demo | No |
+| Código oficial | https://github.com/lmnt-com/diffwave |
+| Código de terceros | https://github.com/philsyn/DiffWave-Vocoder |
+| Output | 22kHz |
+
