@@ -3,10 +3,10 @@
 
 <br>
 
+* [BigVGAN](#BigVGAN)
 * [ArchiSound](#ArchiSound)
 * [AudioLDM](#AudioLDM)
 * [AudioLM](#AudioLM)
-* [BigVGAN](#BigVGAN)
 * [Dance Diffusion](#Dance-Diffusion)
 * [DiffWave](#DiffWave)
 * [Make-An-Audio](#Make-An-Audio)
@@ -27,11 +27,11 @@
 This abstract discusses a new universal vocoder called BigVGAN, which is able to generate high-quality audio for many different speakers and environments without needing to be fine-tuned. The model uses a periodic activation function and anti-aliasing to improve audio quality and has been trained on a very large dataset of speech. BigVGAN achieves state-of-the-art performance for various zero-shot (out-of-distribution) conditions such as unseen speakers, languages, recording environments, singing voices, music, and instrumental audio.
 
 [Paper](https://arxiv.org/abs/2206.04658)
--
-[Code](https://github.com/NVIDIA/BigVGAN)
--
-[Demo](https://huggingface.co/spaces/L0SG/BigVGAN)
--
+–
+[Code](https://github.com/NVIDIA/BigVGAN) 
+–
+[Demo](https://huggingface.co/spaces/L0SG/BigVGAN) 
+–
 [Examples](https://bigvgan-demo.github.io/)
 
 <br><br>
