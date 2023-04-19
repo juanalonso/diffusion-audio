@@ -44,6 +44,8 @@ This study proposes AudioLDM, a text-to-audio system that is built on a latent s
 
 [Paper](https://arxiv.org/abs/2301.12503)
 –
+[Code](https://huggingface.co/docs/diffusers/api/pipelines/audioldm)
+–
 [Demo](https://huggingface.co/spaces/haoheliu/audioldm-text-to-audio-generation)
 –
 [Examples](https://audioldm.github.io/)
@@ -71,7 +73,7 @@ This work investigates the potential of text-conditional music generation using 
 [Paper](https://arxiv.org/abs/2301.11757)
 –
 [Code](https://github.com/archinetai/audio-diffusion-pytorch)
- –
+–
 [Examples](https://anonymous0.notion.site/anonymous0/Mo-sai-Text-to-Audio-with-Long-Context-Latent-Diffusion-b43dbc71caf94b5898f9e8de714ab5dc)
 
 <br><br>
@@ -85,7 +87,7 @@ Diffusion models have become increasingly popular for image generation, and this
 [Paper](https://arxiv.org/abs/2301.13267)
 –
 [Code](https://github.com/archinetai/audio-diffusion-pytorch)
- –
+–
 [Examples](https://flavioschneider.notion.site/flavioschneider/Audio-Generation-with-Diffusion-c4f29f39048d4f03a23da13078a44cdb)
 
 <br><br>
