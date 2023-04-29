@@ -3,10 +3,11 @@
 
 <br>
 
-* [BigVGAN](#BigVGAN)
 * [ArchiSound](#ArchiSound)
 * [AudioLDM](#AudioLDM)
 * [AudioLM](#AudioLM)
+* [Bark](#Bark)
+* [BigVGAN](#BigVGAN)
 * [Dance Diffusion](#Dance-Diffusion)
 * [DiffWave](#DiffWave)
 * [Make-An-Audio](#Make-An-Audio)
@@ -17,6 +18,37 @@
 * [RAVE 2](#RAVE-2)
 * [Riffusion](#Riffusion)
 * [SingSong](#SingSong)
+* [Tango](#Tango)
+
+<br><br>
+
+##### 2023-04-29
+## Tango
+#### 24kHz
+
+Inspired by LLM models, we adopt such an instruction-tuned LLM FLAN-T5 as the text encoder for text-to-audio (TTA) generation—a task where the goal is to generate an audio from its textual description. The prior works on TTA either pre-trained a joint text-audio encoder or used a non-instruction-tuned model, such as, T5. Consequently, our latent diffusion model (LDM)-based approach (TANGO) outperforms the state-of-the-art AudioLDM on most metrics and stays comparable on the rest on AudioCaps test set, despite training the LDM on a 63 times smaller dataset and keeping the text encoder frozen.
+
+[Paper](https://arxiv.org/abs/2304.13731)
+–
+[Code](https://github.com/declare-lab/tango) 
+–
+[Demo](https://huggingface.co/spaces/declare-lab/tango-text-to-audio-generation) 
+–
+[Examples](https://tango-web.github.io/)
+
+<br><br>
+
+##### 2023-04-29
+## Bark
+#### 24kHz
+
+Bark is a transformer-based text-to-audio model created by Suno. Bark can generate highly realistic, multilingual speech as well as other audio - including music, background noise and simple sound effects. The model can also produce nonverbal communications like laughing, sighing and crying. 
+
+[Code](https://github.com/suno-ai/bark) 
+–
+[Demo](https://colab.research.google.com/drive/1eJfA2XUa-mXwdMy7DoYKVYHI1iTd9Vkt?usp=sharing) 
+–
+[Examples](https://suno-ai.notion.site/Bark-Examples-5edae8b02a604b54a42244ba45ebc2e2)
 
 <br><br>
 
