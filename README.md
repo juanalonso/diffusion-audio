@@ -76,7 +76,8 @@ This study proposes AudioLDM, a text-to-audio system that is built on a latent s
 
 [Paper](https://arxiv.org/abs/2301.12503)
 –
-[Code](https://huggingface.co/docs/diffusers/api/pipelines/audioldm)
+[Code 1](https://huggingface.co/docs/diffusers/api/pipelines/audioldm), 
+[Code 2](https://github.com/haoheliu/AudioLDM)
 –
 [Demo](https://huggingface.co/spaces/haoheliu/audioldm-text-to-audio-generation)
 –
